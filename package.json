@@ -2,7 +2,7 @@
   "name": "bitcoin_chart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ttanachot.github.io/react-bitcoin-chart/",
+  "homepage": "https://ttanachot.github.io/react-bitcoin-chart",
   "dependencies": {
     "@vx/curve": "^0.0.153",
     "@vx/event": "^0.0.153",
@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "deploy": "npm run build && gh-pages -d public -b master",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
