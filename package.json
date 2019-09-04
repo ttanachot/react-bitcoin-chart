@@ -2,6 +2,7 @@
   "name": "bitcoin_chart",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ttanachot.github.io/react-bitcoin-chart/",
   "dependencies": {
     "@vx/curve": "^0.0.153",
     "@vx/event": "^0.0.153",
